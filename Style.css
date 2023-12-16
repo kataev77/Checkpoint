@@ -1,8 +1,75 @@
-header{
+body{
     width: 100%;
+}
+header{
+    
+    background-color: aqua;
+    color: #575F7D;
+    font-family: 'Lora', serif;
+    font-size: 17px;
+    font-weight: lighter;
 }
 .container{
     width: 700px;
-    background-color: blue;
-
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    text-align: end;
+}
+.container ul{
+    display: flex;
+    justify-content: end;
+    list-style-type: none;
+}
+li a{
+    margin-left: 30px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #6B72E1;
+}
+li a:hover{
+    color: black;
+}
+section{
+    width: 700px;
+    color: #575F7D;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+.card h1{
+    color: #575F7D;
+    font-size: 32px;
+    font-weight: 900;
+    font-family: 'Rubik Doodle Shadow';
+}
+ img{
+    width: 20%;
+    border-radius: 50%;
+}
+.card p{
+    font-size: 20px;
+}
+.buttons{
+    padding: 20px 0;
+}
+.blue-button{
+    background-color: #6B72E1;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+.blue-button:hover{
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
 }
