@@ -2,8 +2,6 @@ body{
     width: 100%;
 }
 header{
-    
-    background-color: aqua;
     color: #575F7D;
     font-family: 'Lora', serif;
     font-size: 17px;
@@ -72,4 +70,31 @@ section{
     background-color: black;
     color: aliceblue;
     font-family: 'Roboto', sans-serif;
+}
+footer{
+  width: 100%;
+}
+.foot{
+    width: 700px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    text-align: center;
+}
+footer h2{
+    color: #7ECE90;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+footer ul{
+    font-size: 40px;
+    list-style-type: none;
+    display: flex;
+    margin-left: 200px;
+
+} footer a{
+    color: rgb(230, 230, 230);
 }
